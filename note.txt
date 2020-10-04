@@ -15,7 +15,11 @@ git config --global user.name "name"
 git config --global user.email "email" (bat buoc email cua github);
 
 Đẩy code lên trên sever (local repository => remote repository): git push (-u origin master);
+<<<<<<< HEAD
 Tạo 1 branch mới: git branch branch-name;
 Chuyển branch: git checkout -b branch-name
 
 Cập nhật code từ remote về local: git pull
+=======
+Tạo 1 branch mới: git branch -b branch-name;
+>>>>>>> master
