@@ -1,0 +1,18 @@
+git init (Khoi tao git);
+git remote add origin url-repo (Ket noi project voi repo);
+
+git status(Kiểm tra trạng thái của sources);
++ file màu đỏ: file đã thay đổi nhưng chưa save*(working copy);
++ file màu xanh : file đã được save ();
+
+git add file name hoặc .(all) (working coppy => staging area);
+
+git commit -m (commit những thay đổi, staging area => local repository);
+
+
+lần đầu xài git cần chạy 2 lệnh này:
+git config --global user.name "name"
+git config --global user.email "email" (bat buoc email cua github);
+
+Đẩy code lên trên sever (local repository => remote repository): git push (-u origin master);
+Tạo 1 branch mới: git branch -b branch-name;
