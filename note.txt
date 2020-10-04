@@ -33,3 +33,8 @@ Xem tất cả branch: git branch
 Xóa branch:
 + Không thể đứng ở branch hiện tại để xóa nó
 + chuyển qua 1 branch khác và chạy lệnh: git branch -D branch-name;
+
+Stash: Lưu trữ code dưới loccal
+B1:git ađ những thay đổi muốn lưu
+B2: git stash
+STash 
