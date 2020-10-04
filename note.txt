@@ -28,3 +28,8 @@ B3: git checkout branch-conflict
 B4: git merge master
 B5: fix conflict
 B6: git add, commit, push
+
+Xem tất cả branch: git branch
+Xóa branch:
++ Không thể đứng ở branch hiện tại để xóa nó
++ chuyển qua 1 branch khác và chạy lệnh: git branch -D branch-name;
